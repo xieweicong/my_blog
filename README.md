@@ -1,3 +1,6 @@
+Created by python, flask
+        using bootstrap,jQuery, ckeditor, moment 
+
 How to run
 
 clone the repository
@@ -38,7 +41,7 @@ $ exit
 ```
 
 Server on cloud:
-http://lottie0914.pythonanywhere.com
+http://charlie0914.pythonanywhere.com
 
 
 You can log in with admin account to　create new posts, edit posts and delete posts.
@@ -46,3 +49,55 @@ You can log in with admin account to　create new posts, edit posts and delete p
 Admin account:
 * username: `feifei`
 * password: `feifeipw`
+
+Homepage(list of posts)：
+```
+http://charlie0914.pythonanywhere.com/
+```
+
+Log in:
+```
+http://charlie0914.pythonanywhere.com/auth/login
+```
+
+Log out:
+```
+http://charlie0914.pythonanywhere.com/auth/logout
+```
+
+Show single post:
+```
+http://charlie0914.pythonanywhere.com/post/<int:post_id>
+```
+Create new post:
+```
+http://charlie0914.pythonanywhere.com/admin/post/new
+```
+
+list of posts for manageing:
+```
+http://charlie0914.pythonanywhere.com/admin/post/manage
+```
+
+edit post:
+```
+http://charlie0914.pythonanywhere.com/admin/post/<int:post_id>/edit
+```
+
+delete post:
+```
+http://charlie0914.pythonanywhere.com/admin/post/<int:post_id>/delete
+```
+
+upload file:
+```
+http://charlie0914.pythonanywhere.com/admin/uploads/<path:filename>
+```
+
+
+
+
+
+
+
+
