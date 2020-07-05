@@ -41,7 +41,7 @@ Server on cloud:
 http://lottie0914.pythonanywhere.com
 
 
-You can log in with admin account to try creating new post, editting posts and deleteing posts.
+You can log in with admin account to　create new posts, edit posts and delete posts.
 
 Admin account:
 * username: `feifei`
