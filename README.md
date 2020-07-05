@@ -1,31 +1,48 @@
+How to run
 
-clone:
+clone the repository
 ```
-$ git clone https://github.com/greyli/bluelog.git
-$ cd bluelog
+$ git clone https://github.com/lottie0914-faye/buildatblog2020.git
+$ cd buildatblog2020
 ```
-create & activate virtual env then install dependency:
-
-with venv/virtualenv + pip:
+install packages and create virtual environment:
 ```
-$ python -m venv env  # use `virtualenv env` for Python2, use `python3 ...` for Python3 on Linux & macOS
-$ source env/bin/activate  # use `env\Scripts\activate` on Windows
-$ pip install -r requirements.txt
-```
-or with Pipenv:
-```
-$ pipenv install --dev
+$ pip3 install pipenv
+$ pipenv install 
 $ pipenv shell
 ```
-generate fake data then run:
+initialize admin and run flask
 ```
 $ flask forge
 $ flask run
 * Running on http://127.0.0.1:5000/
 ```
 
-Test account:
-
+Admin account:
 * username: `feifei`
 * password: `feifeipw`
 
+In order to quit running flask
+```
+control + c #quit running flask
+```
+
+How to run testing file:
+```
+$ python -m unittest discover -v
+```
+
+In order to quit virtual environment 
+```
+$ exit
+```
+
+Server on cloud:
+http://lottie0914.pythonanywhere.com
+
+
+You can log in with admin account to try creating new post, editting posts and deleteing posts.
+
+Admin account:
+* username: `feifei`
+* password: `feifeipw`
