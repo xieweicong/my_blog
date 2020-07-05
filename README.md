@@ -1,7 +1,7 @@
 Created by python, flask
         using bootstrap,jQuery, ckeditor, moment 
 
-How to run
+# How to run
 
 clone the repository
 ```
@@ -40,7 +40,7 @@ In order to quit virtual environment
 $ exit
 ```
 
-Server on cloud:
+# Server on cloud:
 http://charlie0914.pythonanywhere.com
 
 
@@ -50,46 +50,45 @@ Admin account:
 * username: `feifei`
 * password: `feifeipw`
 
-Homepage(list of posts)：
-```
-http://charlie0914.pythonanywhere.com/
-```
+### Homepage(list of posts)：
 
-Log in:
+http://charlie0914.pythonanywhere.com/
+
+### Log in:
 ```
 http://charlie0914.pythonanywhere.com/auth/login
 ```
 
-Log out:
+### Log out:
 ```
 http://charlie0914.pythonanywhere.com/auth/logout
 ```
 
-Show single post:
+### Show single post:
 ```
 http://charlie0914.pythonanywhere.com/post/<int:post_id>
 ```
-Create new post:
+### Create new post:
 ```
 http://charlie0914.pythonanywhere.com/admin/post/new
 ```
 
-list of posts for manageing:
+### list of posts for manageing:
 ```
 http://charlie0914.pythonanywhere.com/admin/post/manage
 ```
 
-edit post:
+### edit post:
 ```
 http://charlie0914.pythonanywhere.com/admin/post/<int:post_id>/edit
 ```
 
-delete post:
+### delete post:
 ```
 http://charlie0914.pythonanywhere.com/admin/post/<int:post_id>/delete
 ```
 
-upload file:
+## upload file:
 ```
 http://charlie0914.pythonanywhere.com/admin/uploads/<path:filename>
 ```
