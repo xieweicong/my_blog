@@ -7,10 +7,10 @@ from buildatblog.models import Admin
 
 def init_admin():
     admin = Admin(
-        username='feifei',
-        blog_title="feifei's blog",
-        name='FEIFEI',
+        username='xieweicong',
+        blog_title="",
+        name='XIEWEICONG',
     )
-    admin.set_password('feifeipw')
+    admin.set_password('xieweicong95')
     db.session.add(admin)
     db.session.commit()

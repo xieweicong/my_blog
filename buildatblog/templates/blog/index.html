@@ -1,12 +1,63 @@
 {% extends 'base.html' %} {% from 'bootstrap/pagination.html' import render_pager %} {% block title %}Home{% endblock %} {% block content %}
-<div class="page-header">
-    <h1 class="display-3">2020 07 04</h1>
-</div>
+
+<div style="position: relative;
+    width: 100%;
+	height: 850px;
+">
+    <div style="position: absolute;
+    top: 0;
+	bottom: 0;
+    left: 520px;
+    right: 0;">
+    <p style="font-family: Noto Sans;
+font-style: normal;
+font-weight: 100;
+font-size: 36px;
+line-height: 50px;
+/* or 139% */
+
+letter-spacing: 0.005em;">From Shenzhen, China. Passionate about physics and computers.</p>
+        <p style="font-family: Noto Sans;
+font-style: normal;
+font-weight: 100;
+font-size: 36px;
+line-height: 50px;
+/* or 139% */
+
+letter-spacing: 0.005em;">“The limits of my language means the limits of my world.”
+― Ludwig Wittgenstein</p>
+        <p style="font-family: Noto Sans;
+font-style: normal;
+font-weight: 100;
+font-size: 36px;
+line-height: 50px;
+/* or 139% */
+
+letter-spacing: 0.005em;">“Death is not an event in life: we do not live to experience death. If we take eternity to mean not infinite temporal duration but timelessness, then eternal life belongs to those who live in the present. Our life has no end in the way in which our visual field has no limits.”
+― Ludwig Wittgenstein</p>
+        </div>
+        <h1 style="position: absolute;
+width: 344px;
+height: 1107px;
+left: -90px;
+top: -100px;
+z-index:-1;
+
+font-family: Noto Sans JP;
+font-style: normal;
+font-weight: normal;
+font-size: 360px;
+line-height: 300px;
+/* or 100% */
+
+
+color: #000000;">謝瑋聰</h1>
+    </div>
 <hr>
 <div class="row">
-    <div class="col-12">
+    <div style="font-family: Noto Sans;font-size: 30px">
         {% include 'blog/_posts.html' %} {% if posts %}
-        <div class="page-footer">{{ render_pager(pagination) }}</div>
+        <div style="font-family: Noto Sans;font-size: 20px">{{ render_pager(pagination) }}</div>
         {% endif %}
     </div>
 

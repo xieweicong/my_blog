@@ -481,12 +481,12 @@ h6,
 
 .display-3 {
     font-family: 'Roboto Mono', monospace;
-    font-size: 3rem;
-    font-weight: 300;
+    font-size: 20rem;
+    font-weight: 30;
     line-height: 1.2;
-    text-align: center;
-    height: 90vh;
-    padding-top: 15rem;
+    text-align: right;
+    height: 5vh;
+    padding-top: 18rem;
 }
 
 .display-4 {
@@ -7412,7 +7412,7 @@ button.bg-dark:focus {
 }
 
 .footer {
-    font-family: 'Bangers', cursive;
+    font-family: 'Noto Sans JP', cursive;
 }
 
 .float-left {
