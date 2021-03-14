@@ -14,7 +14,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bungee&family=Notable&family=Roboto+Mono:wght@100&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bungee&family=Notable&family=Roboto+Mono:wght@100&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP:wght@100;300;400;700&display=swap');
 
 /* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700"); */
 
@@ -480,8 +481,15 @@ h6,
 }
 
 .display-3 {
+    position: absolute;
+width: 344px;
+height: 1107px;
+left: -90px;
+top: -100px;
+z-index:-1;
+color: #000000;
 
-font-family: Noto Sans JP;
+font-family: "Noto Sans JP";
 font-style: normal;
 font-weight: normal;
 font-size: 360px;
@@ -495,7 +503,7 @@ line-height: 300px;
 }
 
 .display-5 {
-    font-family: Noto Sans;
+    font-family: "Noto Sans JP";
 font-style: normal;
 font-weight: 200;
 font-size: 36px;
