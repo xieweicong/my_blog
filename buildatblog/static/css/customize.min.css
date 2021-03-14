@@ -221,7 +221,7 @@ a {
 }
 
 a:hover {
-    color: #e77000;
+    color: #387098;
     text-decoration: none;
 }
 
@@ -489,7 +489,7 @@ line-height: 300px;
 /* or 100% */
 
 
-color: #000000;
+color: #1E2F3E;
 }
 
 .display-4 {
@@ -512,6 +512,7 @@ letter-spacing: 0.005em;
 .display-6 {
     font-family: Noto Sans;
     font-size: 30px;
+    color: #1E2F3E;
 }
 
 hr {
@@ -4911,7 +4912,7 @@ tbody.collapse.show {
 }
 
 .page-link:hover {
-    color: #ff8902;
+    color: #387098;
     text-decoration: none;
     background-color: #e9ecef;
     border-color: #dee2e6;
