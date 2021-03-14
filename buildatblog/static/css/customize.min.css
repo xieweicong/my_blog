@@ -480,19 +480,34 @@ h6,
 }
 
 .display-3 {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 20rem;
-    font-weight: 30;
-    line-height: 1.2;
-    text-align: right;
-    height: 5vh;
-    padding-top: 18rem;
+
+font-family: Noto Sans JP;
+font-style: normal;
+font-weight: normal;
+font-size: 360px;
+line-height: 300px;
 }
 
 .display-4 {
     font-size: 3.5rem;
     font-weight: 300;
     line-height: 1.2
+}
+
+.display-5 {
+    font-family: Noto Sans;
+font-style: normal;
+font-weight: 200;
+font-size: 36px;
+line-height: 50px;
+/* or 139% */
+
+letter-spacing: 0.005em;
+}
+
+.display-6 {
+    font-family: Noto Sans;
+    font-size: 30px;
 }
 
 hr {
@@ -7412,7 +7427,7 @@ button.bg-dark:focus {
 }
 
 .footer {
-    font-family: 'Noto Sans JP', cursive;
+    font-family: 'Noto Sans', cursive;
 }
 
 .float-left {

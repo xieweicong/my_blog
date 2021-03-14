@@ -1,5 +1,5 @@
 {% if posts %} {% for post in posts %}
-<h3 class="text-primary" style="font-family: Noto Sans;font-weight: 600;
+<h3 class="text-primary" class="display-6" style="font-weight: 600;
 font-size: 42px;"><a href="{{ url_for('.show_post', post_id=post.id) }}">{{ post.title }}</a></h3>
 <p >
     {{ post.body|safe|truncate }}

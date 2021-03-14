@@ -60,12 +60,12 @@ line-height: 20px;">
         </div>
         {% endfor %} {% block content %}{% endblock content %}
         {% block footer %}
-        <footer class="footer" style="width:100%;font-family: 'Noto Sans JP';">
-{#            <p class="float-left ">#}
-{#                <small> #}
-{#                    <a href="https://www.instagram.com/xieweicong95/ " title="Instagram ">XIE WEICONG</a>#}
-{#                </small>#}
-{#            </p>#}
+        <footer class="footer">
+            <p class="float-left ">
+                <small>
+                    <a href="https://www.instagram.com/xieweicong95/ " title="Instagram ">XIE WEICONG</a>
+                </small>
+            </p>
             <p class="float-right ">
                 <small>
                     {% if current_user.is_authenticated %}
